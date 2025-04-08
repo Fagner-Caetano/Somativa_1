@@ -11,3 +11,4 @@ async def root():
 @app.get("/teste1")
 async def root():
     return {"Funcinou"}
+
