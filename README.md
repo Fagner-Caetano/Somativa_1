@@ -8,4 +8,3 @@ Esse projeto foi realizado com as seguintes tecnologias:
 3. Docker.
 
 
-
