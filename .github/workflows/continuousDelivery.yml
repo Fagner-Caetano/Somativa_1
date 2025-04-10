@@ -3,7 +3,7 @@ name: Continuous Delivery
 on:
   push:
     branches:
-      - main # qualquer outra coisa
+      - main
 
 jobs:
   deliver:
@@ -17,5 +17,5 @@ jobs:
         with:
           name: projetozipado.zip
           path: |
-            '**.py'
+            **/*.py
             README.md
